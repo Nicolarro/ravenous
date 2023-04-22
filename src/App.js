@@ -1,5 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
+import Business from './components/business/Business';
 
 function App() {
   return (
@@ -8,8 +8,8 @@ function App() {
         <h1>
             Ravenous Proyect
         </h1>
-
       </header>
+      <Business/>
     </div>
   );
 }
