@@ -1,5 +1,6 @@
 import './App.css';
 import Business from './components/business/Business';
+import BusinessList from './components/business/BusinessList';
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
             Ravenous Proyect
         </h1>
       </header>
-      <Business/>
+      <BusinessList/>
     </div>
   );
 }
